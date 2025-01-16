@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    width: 10vh;
+    height: 91vh;
+    background-color: rgba(27, 123, 136, 0.363);
+    position: fixed;
+    
+}
+
+.ul-li{
+    display: flex;
+    color: rgba(4, 31, 31, 0.774);
+    gap: 20px;
+    flex-direction: column;
+    padding-left: 15px;
+    /* position: fixed; */
+}
+.paragraph{
+    padding-left: 100px ;
+}

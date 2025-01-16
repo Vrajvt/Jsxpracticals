@@ -1,0 +1,189 @@
+.hero-section {
+    background-color: #3498db;
+    padding: 80px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  .hero-section .btn {
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .hero-section .btn:hover {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+  }
+  
+  #features {
+    background-color: #f1f1f1;
+    padding: 60px 0;
+  }
+  
+  #features .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  #features .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  #features .card-body {
+    text-align: center;
+  }
+  
+  #features .card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  #features .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  #cards {
+    padding: 60px 0;
+  }
+  
+  .card-custom {
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .card-custom:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  #contact-form {
+    padding: 60px 0;
+  }
+  
+  #contact-form h2 {
+    margin-bottom: 40px;
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .navbar {
+    background-color: #34495e;
+  }
+  
+  .navbar .navbar-brand,
+  .navbar-nav .nav-link {
+    color: white !important;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #ecf0f1 !important;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  #carouselExampleSlidesOnly {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .carousel-item img {
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .footer h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer a:hover {
+    color: #ff6347;
+  }
+  
+  .social-icons i {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons i:hover {
+    color: #ff6347;
+  }
+  
+  .footer .text-center p {
+    font-size: 0.875rem;
+    margin-top: 20px;
+    color: #ddd;
+  }
+  
+  @media (max-width: 767px) {
+    .footer .row {
+      text-align: center;
+    }
+  
+    .footer .social-icons {
+      text-align: center;
+    }
+  
+    .footer .social-icons a {
+      margin-right: 10px;
+    }
+  }
